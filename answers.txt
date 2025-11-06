@@ -1,0 +1,7 @@
+1. Most of the terms feel so foreign to me, but I’m guessing that the option to enable Windows Explorer integration allows me to both easily access and use Git, the other one that I’m sure of what it did is when I chose Notepad as the default editor, it’s self-explanatory, and out of all the options, Notepad definitely seems like the simplest one, which makes it a good starting point.
+
+2. It’s a quick and efficient way to run code or commands with minimal lines and characters, because using compilers like Thonny takes significantly longer, it takes longer to boot up as well as navigating through the user interface. Also, using the shell basically lets you communicate with the operating system directly, I think I have utilized this feature before where I downloaded software using the shell, although I can’t recall what that software was.
+
+3. Since I typed out "cd usr/", the shell printed "/usr" when I entered the pwd command.
+
+4. It’s a ".md" or markdown file, and when I opened it, it consisted of 3 parts; the preview, code, and blame. The preview was my file repository name and description. The code section was also just my file name and description, just in the form of code. And I believe that the blame section is a history of commits and edits.
