@@ -7,6 +7,5 @@ print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
 while game_running:
 move = input("Enter move (up/down/left/right): ")
 # TODO: update player_x and player_y based on move
-4
 print(f"Player position: ({player_x}, {player_y})")
 # TODO: check if player has reached the treasure
