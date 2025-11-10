@@ -43,3 +43,89 @@ index 6581418..014d997 100644
  print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
  while game_running:
    move = input("Enter move (up/down/left/right): ")
+
+Another output (for step 4.1):
+
+diff --git a/answers.txt b/answers.txt
+deleted file mode 100644
+index db195bf..0000000
+--- a/answers.txt
++++ /dev/null
+@@ -1,45 +0,0 @@
+-1. Most of the terms feel so foreign to me, but I’m guessing that the option to enable Windows Expl
+orer integration allows me to both easily access and use Git, the other one that I’m sure of what it
+ did is when I chose Notepad as the default editor, it’s self-explanatory, and out of all the option
+s, Notepad definitely seems like the simplest one, which makes it a good starting point.
+-
+-2. It’s a quick and efficient way to run code or commands with minimal lines and characters, becaus
+e using compilers like Thonny takes significantly longer, it takes longer to boot up as well as navi
+gating through the user interface. Also, using the shell basically lets you communicate with the ope
+rating system directly, I think I have utilized this feature before where I downloaded software usin
+g the shell, although I can’t recall what that software was.
+-
+-3. Since I typed out "cd usr/", the shell printed "/usr" when I entered the pwd command.
+-
+-4. It’s a ".md" or markdown file, and when I opened it, it consisted of 3 parts; the preview, code,
+ and blame. The preview was my file repository name and description. The code section was also just
+my file name and description, just in the form of code. And I believe that the blame section is a hi
+story of commits and edits.
+-
+-The output when I typed git diff main development:
+-
+-diff --git a/answers.txt b/answers.txt
+-deleted file mode 100644
+-index 752c832..0000000
+---- a/answers.txt
+-+++ /dev/null
+-@@ -1,7 +0,0 @@
+--1. Most of the terms feel so foreign to me, but I’m guessing that the option to enable Windows Exp
+l
+-orer integration allows me to both easily access and use Git, the other one that I’m sure of what i
+t
+- did is when I chose Notepad as the default editor, it’s self-explanatory, and out of all the optio
+n
+-s, Notepad definitely seems like the simplest one, which makes it a good starting point.
+--
+--2. It’s a quick and efficient way to run code or commands with minimal lines and characters, becau
+s
+-e using compilers like Thonny takes significantly longer, it takes longer to boot up as well as nav
+i
+-gating through the user interface. Also, using the shell basically lets you communicate with the op
+e
+-rating system directly, I think I have utilized this feature before where I downloaded software usi
+n
+-g the shell, although I can’t recall what that software was.
+--
+--3. Since I typed out "cd usr/", the shell printed "/usr" when I entered the pwd command.
+--
+--4. It’s a ".md" or markdown file, and when I opened it, it consisted of 3 parts; the preview, code
+,
+- and blame. The preview was my file repository name and description. The code section was also just
+-my file name and description, just in the form of code. And I believe that the blame section is a h
+i
+-story of commits and edits.
+-diff --git a/martorillas.py b/martorillas.py
+-index 6581418..014d997 100644
+---- a/martorillas.py
+-+++ b/martorillas.py
+-@@ -3,6 +3,7 @@ player_louie = 0
+- treasure_x = 19
+- treasure_y = 3
+- game_running = True
+-+print("Welcome to Martorillas’ Maze")
+- print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
+- while game_running:
+-   move = input("Enter move (up/down/left/right): ")
+diff --git a/martorillas.py b/martorillas.py
+index 6581418..014d997 100644
+--- a/martorillas.py
++++ b/martorillas.py
+@@ -3,6 +3,7 @@ player_louie = 0
+ treasure_x = 19
+ treasure_y = 3
+ game_running = True
++print("Welcome to Martorillas’ Maze")
+ print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
+ while game_running:
+   move = input("Enter move (up/down/left/right): ")
+
