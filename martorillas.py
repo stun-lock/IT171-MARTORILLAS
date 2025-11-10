@@ -27,9 +27,6 @@ while game_running:
       player_louie -= 1
   print(f"Player position: ({player_mark}, {player_louie})")
   if player_mark == treasure_x and player_louie == treasure_y:
-    print("win")
-    break
-  if move == "q":
     print("You've won the game!")
     break
   if move == "q":
